@@ -1,7 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+In this situation, the cemera will not follow the cat when cat is moving, as at that time they are not a part.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
@@ -9,4 +9,5 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
-- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+- itch: https://zfy9527.itch.io/gdim-31-10
