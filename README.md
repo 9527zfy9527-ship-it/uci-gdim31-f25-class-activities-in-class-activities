@@ -1,8 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
-
+In this situation, the cemera will not follow the cat when cat is moving, as at that time they are not a part.
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
