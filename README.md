@@ -4,7 +4,9 @@
 In this situation, the cemera will not follow the cat when cat is moving, as at that time they are not a part.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1.As the range of these color is from 0 to 1.0, so that we should use float like:0.2, 0.6 to control the color better
+2.Bounces means the number of the jump, in this case it can not use float to show how many times the ball jumps.
+3.In C# we should use ";" to sperate the code.
 
 ## Open-Source Assets
 ### W1
