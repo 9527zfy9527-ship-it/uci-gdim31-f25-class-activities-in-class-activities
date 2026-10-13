@@ -24,7 +24,7 @@ In this situation, the cemera will not follow the cat when cat is moving, as at 
  Code Signature: ⁠bool DidPlayerHitBeat(float keyPressTime)⁠
 #### Activity 2
 A class is like a blueprint for a car stereo, defining its overall design and capabilities, while a component is the actual stereo hardware built from that blueprint and installed into a specific car (⁠GameObject⁠). Within this analogy, member variables represent the stereo's properties (such as ⁠maxVolume⁠ or ⁠brand⁠), and methods are the functions the stereo can perform (such as ⁠PlayMusic()⁠ or ⁠SetVolume()⁠).
-####Activity 3
+#### Activity 3
 Each bounce increases light intensity or material emission (e.g., ⁠intensity *= 1.2f⁠) without a maximum cap, causing compounding exposure and overbrightness.
 
 ## Open-Source Assets
