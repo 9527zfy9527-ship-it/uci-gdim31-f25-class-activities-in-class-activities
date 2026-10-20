@@ -27,6 +27,12 @@ A class is like a blueprint for a car stereo, defining its overall design and ca
 #### Activity 3
 Each bounce increases light intensity or material emission (e.g., ⁠intensity *= 1.2f⁠) without a maximum cap, causing compounding exposure and overbrightness.
 
+### w4
+#### problem1 
+For this activity, I added Rigidbodies to both the Cat and the SoccerBall because they need to be affected by physics—such as moving, kicking, and bouncing off walls. I added Colliders to all three objects: a Capsule Collider for the Cat, a Sphere Collider for the SoccerBall, and a Box Collider for the Goal. I only checked 'Is Trigger' on the Goal's Box Collider so that the ball can pass through the goal area while still detecting when a goal is scored.
+#### problem2
+When I first tested the game, the bounce forces for the Cat and the SoccerBall didn't feel quite right. Because the cat is larger and heavier, while the soccer ball is much smaller and lighter, I had to fine-tune their BounceOffWall settings. I adjusted the bounce force so that the soccer ball's reaction was noticeably weaker than the cat's, making their movements against the walls look much more natural.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
