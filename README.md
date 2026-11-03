@@ -33,7 +33,7 @@ For this activity, I added Rigidbodies to both the Cat and the SoccerBall becaus
 #### problem2
 When I first tested the game, the bounce forces for the Cat and the SoccerBall didn't feel quite right. Because the cat is larger and heavier, while the soccer ball is much smaller and lighter, I had to fine-tune their BounceOffWall settings. I adjusted the bounce force so that the soccer ball's reaction was noticeably weaker than the cat's, making their movements against the walls look much more natural.
 
-### w5
+### w6 table 8
 #### Member Variables
 This class needs a Transform variable that is tunable in the Inspector to represent the target GameObject the deer will walk towards. It also needs a variable to store the reference to the deer's NavMeshAgent component.
 #### Methods Needed
