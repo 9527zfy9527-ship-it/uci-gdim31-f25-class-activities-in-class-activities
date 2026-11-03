@@ -33,6 +33,14 @@ For this activity, I added Rigidbodies to both the Cat and the SoccerBall becaus
 #### problem2
 When I first tested the game, the bounce forces for the Cat and the SoccerBall didn't feel quite right. Because the cat is larger and heavier, while the soccer ball is much smaller and lighter, I had to fine-tune their BounceOffWall settings. I adjusted the bounce force so that the soccer ball's reaction was noticeably weaker than the cat's, making their movements against the walls look much more natural.
 
+### w5
+#### Member Variables
+This class needs a Transform variable that is tunable in the Inspector to represent the target GameObject the deer will walk towards. It also needs a variable to store the reference to the deer's NavMeshAgent component.
+#### Methods Needed
+The class needs the built-in Unity method Start(). (If the target is moving and the deer needs to constantly update its path, Update() could also be used, but Start() is sufficient for the basic requirement of executing when the game begins).
+#### Method Functions
+The Start() method should first use GetComponent<NavMeshAgent>() to retrieve the NavMeshAgent component attached to the Deer GameObject. Once retrieved, it should use the agent's built-in pathfinding methods (such as agent.SetDestination()) and pass in the coordinates of the target Transform to tell the deer where to walk.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
