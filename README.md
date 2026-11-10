@@ -41,6 +41,10 @@ The class needs the built-in Unity method Start(). (If the target is moving and 
 #### Method Functions
 The Start() method should first use GetComponent<NavMeshAgent>() to retrieve the NavMeshAgent component attached to the Deer GameObject. Once retrieved, it should use the agent's built-in pathfinding methods (such as agent.SetDestination()) and pass in the coordinates of the target Transform to tell the deer where to walk.
 
+### w7
+#### General C# Programming
+https://docs.google.com/document/d/1rEcKZvCsHfZY-858m5lgtpYavC0HqXDDEVXJo_iIQqI/edit?usp=sharing
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
