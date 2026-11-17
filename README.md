@@ -45,6 +45,12 @@ The Start() method should first use GetComponent<NavMeshAgent>() to retrieve the
 #### General C# Programming
 https://docs.google.com/document/d/1rEcKZvCsHfZY-858m5lgtpYavC0HqXDDEVXJo_iIQqI/edit?usp=sharing
 
+### w8
+#### step 2 problem and solution
+The Issue: In MoveNormal(), the Muskrat rotated properly when turning left or right, but pressing forward/backward moved it along a fixed global direction instead of the direction it was facing.
+Root Cause: The original code used Vector3.forward with transform.position += ..., which moves the character along the World Space Z-axis (0, 0, 1) and completely ignores its current rotation.   
+The Fix: Switched the movement calculation to Local Space using transform.Translate(Vector3.forward * movement * _moveSpeed * Time.deltaTime); (or transform.forward), so the Muskrat now moves relative to its own facing direction.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
